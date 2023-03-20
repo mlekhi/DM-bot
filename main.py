@@ -1,4 +1,4 @@
-#Project5k dm bot
+#dm bot
 
 from selenium import webdriver;
 from time import sleep;
