@@ -12,7 +12,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 #Always double check your username and pass/message, typing must be EXACT
 
 #must set up path based on where you have your chrome!
-PATH = "/Users/sarinali/Downloads/chromedriver" 
+PATH = "/Users/mayal/Downloads/chromedriver" 
 driver = webdriver.Chrome(PATH);
 driver.get('https://www.instagram.com/accounts/login/?source=auth_switcher'); 
 sleep(2);
@@ -43,7 +43,7 @@ notnow.click();
 sleep(3);
 
 # put your list of users here in this format: 'username',
-users = ['sarinastoenail', 'rogers_fan.page']; 
+users = ['username', 'password']; 
 
 #individually dms each of the usernames in the list
 for i in range(len(users)):
